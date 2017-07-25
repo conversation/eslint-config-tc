@@ -6,12 +6,12 @@ A simple package to keep consistent eslint configuration across our internal app
 
 1) Install this package
 ```
-npm install --save-dev eslint-config-tc
+npm install --save-dev "https://github.com/conversation/eslint-config-tc"
 ```
 
-2) Install the correct peer dependencies, which you can find by using the command
+2) Install the correct peer dependencies:
 ```
-npm info "https://github.com/conversation/eslint-config-tc@latest" peerDependencies
+npm install --save-dev eslint@^3.15.0 eslint-config-airbnb@^15.1.0 eslint-plugin-import@^2.7.0 eslint-plugin-jsx-a11y@^5.1.1 eslint-plugin-react@^7.1.0
 ```
 
 3) Add the following to your `.eslintrc.js`
