@@ -21,10 +21,8 @@ module.exports = require('eslint-config-tc')
 
 4) Optionally add a convenient way to run eslint and autofix. In `package.json`:
 ```
-...
 "scripts": {
   "lint": "eslint app/assets/javascripts/**/*.jsx",
   "lint:autofix": "eslint --fix app/assets/javascripts/**/*.jsx"
-},
-...
+}
 ```
