@@ -1,5 +1,7 @@
 # TC ESLint Configuration
 
+## This has been superseded by https://github.com/conversation/tc-eslint-config and only remains for historical purposes
+
 A simple package to keep consistent eslint configuration across our internal apps.
 
 ### Usage
